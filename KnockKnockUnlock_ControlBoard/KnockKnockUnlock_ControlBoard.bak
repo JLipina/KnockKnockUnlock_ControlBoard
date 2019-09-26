@@ -108,19 +108,17 @@ $EndComp
 $Comp
 L power:GND #PWR0103
 U 1 1 5D8BE2F9
-P 3650 1400
-F 0 "#PWR0103" H 3650 1150 50  0001 C CNN
-F 1 "GND" H 3655 1227 50  0000 C CNN
-F 2 "" H 3650 1400 50  0001 C CNN
-F 3 "" H 3650 1400 50  0001 C CNN
-	1    3650 1400
-	1    0    0    -1  
+P 3650 1350
+F 0 "#PWR0103" H 3650 1100 50  0001 C CNN
+F 1 "GND" V 3650 1150 50  0000 C CNN
+F 2 "" H 3650 1350 50  0001 C CNN
+F 3 "" H 3650 1350 50  0001 C CNN
+	1    3650 1350
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3650 1400 3650 1350
-Wire Wire Line
 	3650 1350 3850 1350
-Text GLabel 5600 2150 2    59   Input ~ 0
+Text GLabel 3450 1650 0    59   Input ~ 0
 Piezo_Sensor
 Wire Wire Line
 	1350 950  1750 950 
@@ -608,12 +606,12 @@ VBATT
 $Comp
 L Device:R_Small R12
 U 1 1 5D968230
-P 5400 2150
-F 0 "R12" V 5360 1970 50  0000 L CNN
-F 1 "0" V 5360 2240 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5400 2150 50  0001 C CNN
-F 3 "~" H 5400 2150 50  0001 C CNN
-	1    5400 2150
+P 3650 1650
+F 0 "R12" V 3600 1430 50  0000 L CNN
+F 1 "0" V 3610 1740 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3650 1650 50  0001 C CNN
+F 3 "~" H 3650 1650 50  0001 C CNN
+	1    3650 1650
 	0    1    1    0   
 $EndComp
 $Comp
@@ -676,10 +674,6 @@ Wire Wire Line
 	3550 1950 3450 1950
 Wire Wire Line
 	3550 2050 3450 2050
-Wire Wire Line
-	5500 2150 5600 2150
-Wire Wire Line
-	5200 2150 5300 2150
 $Comp
 L Device:R_Small R2
 U 1 1 5D999F0A
@@ -790,13 +784,13 @@ Wire Notes Line
 	2350 6100 500  6100
 Wire Notes Line
 	2350 500  2350 6100
-Text GLabel 3450 2150 0    59   Output ~ 0
+Text GLabel 3450 2450 0    59   Output ~ 0
 Button_1_IN
-Text GLabel 3450 2350 0    59   Output ~ 0
+Text GLabel 3450 2250 0    59   Output ~ 0
 Button_2_IN
-Text GLabel 3450 2450 0    59   Input ~ 0
+Text GLabel 3450 2150 0    59   Input ~ 0
 Button_2_OUT
-Text GLabel 3450 2250 0    59   Input ~ 0
+Text GLabel 3450 2350 0    59   Input ~ 0
 Button_1_OUT
 Wire Wire Line
 	3450 2150 3850 2150
@@ -919,4 +913,8 @@ Wire Wire Line
 	7650 3450 7650 3500
 Text Notes 2950 3450 0    39   ~ 0
 Only populate pull-down resistors \nif using n-fet instead of q-fet
+Wire Wire Line
+	3750 1650 3850 1650
+Wire Wire Line
+	3550 1650 3450 1650
 $EndSCHEMATC
