@@ -549,6 +549,8 @@ Lock_Mech_Pin5
 Text GLabel 1450 4650 2    59   Input ~ 0
 Lock_Mech_Pin7
 Wire Notes Line
+	2350 500  2350 4800
+Wire Notes Line
 	500  4800 11200 4800
 Text Notes 1050 4050 0    59   ~ 12
 Lock Mech Pins
@@ -779,64 +781,4 @@ Text Notes 6900 2400 0    55   ~ 0
 Green
 Text Notes 7400 2400 0    55   ~ 0
 Green
-$Comp
-L MRDT_Connectors:Molex_SL_02 Conn?
-U 1 1 5D9E7C11
-P 1000 5450
-F 0 "Conn?" H 944 5847 60  0000 C CNN
-F 1 "Molex_SL_02" H 944 5741 60  0000 C CNN
-F 2 "" H 1000 5350 60  0001 C CNN
-F 3 "" H 1000 5350 60  0001 C CNN
-	1    1000 5450
-	-1   0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:Molex_SL_02 Conn?
-U 1 1 5D9EBBBE
-P 1000 5950
-F 0 "Conn?" H 944 6347 60  0000 C CNN
-F 1 "Molex_SL_02" H 944 6241 60  0000 C CNN
-F 2 "" H 1000 5850 60  0001 C CNN
-F 3 "" H 1000 5850 60  0001 C CNN
-	1    1000 5950
-	-1   0    0    -1  
-$EndComp
-Text Notes 950  4950 0    59   ~ 12
-User Input Switches
-Text GLabel 1300 5300 2    59   Input ~ 0
-Button_1_IN
-Text GLabel 1300 5800 2    59   Input ~ 0
-Button_2_IN
-Text GLabel 1300 5900 2    59   Output ~ 0
-Button_2_OUT
-Text GLabel 1300 5400 2    59   Output ~ 0
-Button_1_OUT
-Wire Wire Line
-	1200 5300 1300 5300
-Wire Wire Line
-	1200 5400 1300 5400
-Wire Wire Line
-	1200 5800 1300 5800
-Wire Wire Line
-	1200 5900 1300 5900
-Wire Notes Line
-	2350 6100 500  6100
-Wire Notes Line
-	2350 500  2350 6100
-Text GLabel 3450 2150 0    59   Output ~ 0
-Button_1_IN
-Text GLabel 3450 2350 0    59   Output ~ 0
-Button_2_IN
-Text GLabel 3450 2450 0    59   Input ~ 0
-Button_2_OUT
-Text GLabel 3450 2250 0    59   Input ~ 0
-Button_1_OUT
-Wire Wire Line
-	3450 2150 3850 2150
-Wire Wire Line
-	3850 2250 3450 2250
-Wire Wire Line
-	3450 2350 3850 2350
-Wire Wire Line
-	3850 2450 3450 2450
 $EndSCHEMATC
