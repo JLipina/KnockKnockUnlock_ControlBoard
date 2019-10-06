@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 51)
-    (tracks 140)
+    (tracks 147)
     (zones 0)
     (modules 37)
     (nets 53)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.381)
+    (last_trace_width 0.25)
     (user_trace_width 0.381)
     (user_trace_width 0.762)
     (user_trace_width 1.016)
@@ -62,7 +62,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFFFFF)
+    (visible_elements 7FFFF7FF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -1609,6 +1609,13 @@
   (segment (start 165.1 111.506) (end 165.1 114.554) (width 0.381) (layer F.Cu) (net 1))
   (segment (start 165.1 114.554) (end 162.052 117.602) (width 0.381) (layer F.Cu) (net 1))
   (via (at 157.226 67.056) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2))
+  (via (at 161.036 81.026) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2))
+  (via (at 130.048 94.488) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2))
+  (via (at 147.828 94.488) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2))
+  (via (at 165.608 94.488) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2))
+  (via (at 145.034 113.03) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2))
+  (via (at 145.034 119.126) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2))
+  (via (at 169.164 109.22) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2))
   (segment (start 162.56 65.645) (end 160.895 67.31) (width 0.381) (layer F.Cu) (net 3))
   (segment (start 162.56 63.5) (end 162.56 65.645) (width 0.381) (layer F.Cu) (net 3))
   (segment (start 155.25 87.562081) (end 155.194 87.618081) (width 0.762) (layer B.Cu) (net 3))
@@ -1737,7 +1744,7 @@
   (segment (start 147.63 68.03) (end 147.63 71.104) (width 0.381) (layer F.Cu) (net 50))
   (segment (start 148.35 67.31) (end 147.63 68.03) (width 0.381) (layer F.Cu) (net 50))
 
-  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 5D9AE0EE) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 5D8E3F5D) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -2182,7 +2189,7 @@
       )
     )
   )
-  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 5D9AE0EB) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 5D8E3F5A) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
